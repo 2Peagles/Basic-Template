@@ -1,0 +1,119 @@
+.section{
+    cursor:pointer;
+    color:#FFF;
+    font-size:2em;
+    border:1px solid #eee;
+    border-radius:4px;
+    border:1px solid #aaa;
+    text-decoration:none;        
+    -webkit-transition: all 0.3s linear;
+     -khtml-transition: all 0.3s linear;
+       -moz-transition: all 0.3s linear;
+         -o-transition: all 0.3s linear;
+            transition: all 0.3s linear;
+}
+body{margin:0;
+    font-family:Arial, Helvetica, sans-serif
+}
+.sticky{
+        position:fixed;
+        top:0;
+        width:100%;
+    }
+.main-nav{
+        display:flex;
+        list-style: none;
+        font-size: 0.7em;
+        margin:o;
+    }
+@media only screen and (max-width:600px){
+        .main-nav{font-size: 0.5em;
+        padding:0;
+        }
+        }
+        
+.push{margin-left:auto;
+        }
+        
+li{
+            padding:20px;
+        }
+a {
+            color:#f5f5f6;
+            text-decoration: none;
+        }
+.container{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            height:50vh;
+        } 
+.cover{
+            width:30rem;
+        }
+.grid-wrapper{
+            display:grid;
+            grid:gap 20px;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        }
+.box > img {
+        width:100%;
+    }
+.box{
+        background-color: rgb(5, 5, 5);
+        padding:130px;
+        margin: 10px;
+    }
+      
+footer{text-align: center;}
+.section {
+    background: #fd02e8; /* Old browsers */
+    background: -moz-linear-gradient(top, #fd02e8 0%, #f5aed7 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fd02e8), color-stop(100%,#f5aed7)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fd02e8 0%,#f5aed7 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fd02e8 0%,#f5aed7 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fd02e8 0%,#f5aed7 100%); /* IE10+ */
+    background: linear-gradient(top, #fd02e8 0%,#f5aed7 100%); /* W3C */
+  
+}
+.head-foot{
+    background: #C655BE; /* Old browsers */
+    background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C655BE), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* IE10+ */
+    background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */
+}
+.section:hover{
+    -webkit-box-shadow:rgba(0,0,0,0.7) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+     -khtml-box-shadow:rgba(0,0,0,0.7) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+       -moz-box-shadow:rgba(0,0,0,0.7) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+         -o-box-shadow:rgba(0,0,0,0.7) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+            box-shadow:rgba(0,0,0,0.7) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.section:active {
+    -webkit-box-shadow: rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+     -khtml-box-shadow: rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+       -moz-box-shadow: rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+         -o-box-shadow: rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+            box-shadow: rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+    text-shadow:1px 1px 1px #eee;
+}
+.section:active {
+    -webkit-box-shadow: rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+     -khtml-box-shadow: rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+       -moz-box-shadow: rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+         -o-box-shadow: rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+            box-shadow: rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+    text-shadow:1px 1px 1px #eee;
+}
+
+/*.box:hover{
+    
+    -webkit-transform:rotate(-7deg);
+     -khtml-transform:rotate(-7deg);
+       -moz-transform:rotate(-7deg);
+         -o-transform:rotate(-7deg);
+            transform:rotate(-7deg);
+}*/
